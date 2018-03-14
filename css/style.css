@@ -196,12 +196,12 @@ body {
     transform: translateY(-1.5rem) scale(1.05); }
 
 .header {
-  height: 95vh;
+  height: 100vh;
   background-image: linear-gradient(to right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/background.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); }
   .header__logo-box {
     position: relative;
     top: 6rem;
