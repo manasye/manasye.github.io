@@ -63,7 +63,6 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
   color: #777;
-  padding: 3rem;
   overflow-x: hidden; }
 
 .heading-secondary {
@@ -205,8 +204,8 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   .header__logo-box {
     position: relative;
-    top: 4rem;
-    left: 4rem; }
+    top: 6rem;
+    left: 6rem; }
   .header__logo {
     height: 3.5rem; }
   .header__text-box {
