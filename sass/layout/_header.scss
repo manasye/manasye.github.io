@@ -9,10 +9,19 @@
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
 
+    @include respond(phone) {
+        clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    }
+
     &__logo-box {
         position: relative;
         top: 6rem;
         left: 6rem;
+
+        @include respond(phone) {
+            left: 3rem;
+        }
+
     }
 
     &__logo {
