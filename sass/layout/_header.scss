@@ -10,7 +10,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
 
     @include respond(phone) {
-        clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 92.5vh, 0 100%);
     }
 
     &__logo-box {
