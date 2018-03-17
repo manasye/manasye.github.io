@@ -252,7 +252,7 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); }
   @media (max-width: 37.5em) {
     .header {
-      clip-path: polygon(0 0, 100% 0, 100% 92.5vh, 0 100%); } }
+      clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%); } }
   .header__logo-box {
     position: relative;
     top: 6rem;
