@@ -2,7 +2,6 @@
     background-color: $color-grey-light-1;
     padding: 25rem 0;
     margin-top: -20vh;
-
     @include respond(tab-port) {
         padding: 25rem 0;
         margin-top: -15vh;
@@ -12,19 +11,28 @@
 .section-skills {
     padding: 20rem 0;
     margin-top: -10rem;
-    background-image: linear-gradient(to right
-        ,rgba($color-primary-light,0.8)
-        ,rgba($color-primary-dark,0.8))
-        ,url(../img/nat-6.jpg);
+    background-image: linear-gradient( to right, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)), url(../img/background-2.jpg);
     background-size: cover;
     transform: skewY(-5deg);
-
-    & > * {
+    &>* {
         transform: skewY(5deg);
     }
-
     @include respond(tab-port) {
         padding: 10rem 0;
         margin-top: -5rem;
+    }
+}
+
+.section-project {
+    background-color: $color-grey-light-1;
+    padding: 20rem 0;
+    margin-top: -20vh;
+    @include respond(tab-port) {
+        padding: 25rem 0;
+        margin-top: -15vh;
+    }
+    transform: skewY(-5deg);
+    &>* {
+        transform: skewY(5deg);
     }
 }
